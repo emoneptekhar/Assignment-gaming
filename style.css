@@ -1,6 +1,6 @@
 /* Global */
-body{
-    font-family: 'Work Sans', sans-serif;
+*{
+    font-family: 'Work Sans', sans-serif !important;
 }
 
 /* Nav Section */
@@ -15,16 +15,16 @@ body{
     display: flex;
     justify-content:space-around;
 }
-.log{
+.logo{
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.log img{
+.logo img{
     width: 50%;
     height: auto;
 }
-.log h6{
+.logo h6{
     text-align: center;
     font-size: 2.813rem;
     font-weight: 700;
@@ -113,9 +113,7 @@ body{
  .banner_icons p{
     color: #534C64;
     text-align: center;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 500;
     line-height: normal;
     text-transform: lowercase;
@@ -123,34 +121,334 @@ body{
  .banner_button{
    padding: 20px 0px;
    display: flex;
-   gap: 30px;
+   gap: 20px;
+   justify-content: center;
+}
    
- }
+
  .btn_1{
     background-color: #FF42A5;
     border: none;
     border-radius: 48px;
-    color: #FFF;
+    cursor: pointer;
+    width: 200px;
+    padding: 20px 10px;
+ }
+ .btn_1 p{
     font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 5px 60px;
-    cursor: pointer;
+    color: #FFF;
+    margin: 0px;
  }
  .btn_2{
     background-color: #4EC5F7;
     border: none;
     border-radius: 48px;
+    cursor: pointer;
+    width: 200px;
+    padding: 20px 10px;
+ }
+ .btn_2 p{
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
     color: #FFF;
-    font-size: 1.2rem;
+    margin: 0px;
+ }
+ /* Gamer Section */
+ .gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 80px 0px;
+ }
+ .gamer_contaoiner{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .gamer_content{
+    text-align: right;
+ }
+ .gamer_content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .gamer_content p{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn_gamer{
+    background-color: #FF42A5;
+    border: none;
+    border-radius: 48px;
+    cursor: pointer;
+}
+.btn_gamer p{
+    color: #FFF;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
     padding: 5px 60px;
+}
+.gamer_content h4{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.gamer_content h5{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+/* Video  Section */
+.video_container{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.video_text{
+    text-align: center;
+
+}
+.video_text h2{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.video_text span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.video_text p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.video_content{
+    display: flex;
+    padding-top: 30px;
+    
+}
+.vie_card{
+    width: 25%;
+}
+.vie_card p{
+    width: 90%;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.icon_hover{
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    background-color: #4EC5F7;
+}
+/* Dwonload Section */
+.dwonload{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 80px;
+}
+.dwonload_container{
+    display: flex;
+    justify-content: space-between;
+}
+.dwonload_content{
+    width: 341px;
+    margin: 0 auto;
+}
+
+.dwonload_content h2{
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+}   
+.dwonload_content span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dwonload_content p{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.img_main{
+    width: 80%;
+}
+
+.dwonload_img{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.dwonload_subimg{
+    width: 40%;
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+}
+/* Dwonload Section 2 */
+.dwonload_container_2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.dwonload_img_2{
+    position: relative;
+}
+.dwonload_subimg_2{
+    position: absolute;
+    width: 40%;
+    bottom: -40px;
+    right: 0px;
+}
+
+/* Button Section */
+.click_btn{
+    padding-top: 40px ;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: 40px;
+    
+}
+.btn_contaoiner{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: 25px auto;
+    align-items: center;
+    justify-content: center;
+}
+.btn_container_2{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+}
+.btn_content{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+.btn_content:hover{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #FF42A5;
+    border: 1px solid #FF42A5;
     cursor: pointer;
- }
-
-
-
+}
+.btn_underside{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+}
+.btn_content p{
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+/* Footer Section */
+.footer{
+    background-color: #0B0223;
+    margin-top: 40px;
+}
+.footer_container{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+.footer_logo img{
+    width: fit-content;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+.footer_logo h6{
+    text-align: center;
+    font-size: 2.813rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.footer_logo span{
+    color: #F948B2;
+}
+.footer_nav{
+    text-align: center;
+    margin: 50px 0px;
+}
+.footer_nav a{
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.footer_icon{
+    text-align: center;
+    margin: 50px 0px;
+}
+.footer_icon img{
+    margin-right: 15px;
+    width: 2%;
+    
+}
+.footer_subnav{
+    text-align: center;
+    margin: 50px 0px;
+}
+.footer_subnav a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.footer_text{
+    text-align: center;
+    margin: 20px 0px;
+    padding-bottom: 30px;
+}
+.footer_text p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    margin-left: 15px;
+    font-weight: 500;
+}
 /* Responsive Mobile */
 @media screen and (max-width:576px) {
     .nav_container{
@@ -158,8 +456,7 @@ body{
         flex-direction: column;
         justify-content: center;
     }
-    .log{
-        width: 50%;
+    .logo{
         margin: 0 auto;
     }
     .nav-left ul{
@@ -168,7 +465,7 @@ body{
         padding: 20px 0px;
     }
     .nav-right{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         justify-content: center;
     }
@@ -189,14 +486,104 @@ body{
     }
     .banner_left{
         background: url(images/Group\ 14.png);
-        width: 90%;
-        padding: 20px 50px;
-    }
+        background-size: contain;
+        padding: 30px;
+        margin: 60px 0px;
         
-}
-    /* .banner_container{
+    }
+    .btn_1{
+        width: 150px;
+    }
+    .btn_2{
+        width: 150px;
+    }
+    .banner_content h4{
+        font-size: 30px;
+    }
+    .banner_content h1{
+        font-size: 58px;
+    }
+    .btn_1 .btn_2{
+        font-size: 0.5rem;
+    }
+    .banner_button{
+        padding: 20px 0px;
+        display: flex;
+        gap: 30px;
+        
+    }
+    /* Gamer Section */
+    .gamer_contaoiner{
+        flex-direction: column;
+        /* width: 100%; */
+       
+    }
+    .gamer_img img{
         width: 100%;
-        margin: 0 auto;
-    } */
+    }
+    .gamer_content{
+        text-align: center;
+    }
+    /* Video Section */
+  
+    .video_content{
+        flex-direction: column;
+    }
+    .vie_card {
+        width: 100%;
+    }
 
+    /* Dwonload Section */
+   
+    .dwonload_container{
+        flex-direction: column;
+    }
+    .dwonload_content{
+        text-align: center;
+    }
+   
+    /* Dwonload Section 2 */
+    .dwonload_container_2{
+        flex-direction: column;
+    }
+    
+    /* Btn Section */
+    .btn_contaoiner{
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        gap: 10px;
+    }
+    .btn_container_2{
+        grid-template-columns: repeat(3,1fr);
+       justify-content: center;
+       gap: 20px;
+    }
+    .btn_content{
+        gap: 10px;
+    }
+    .btn_content img{
+        width: 40px;
+        height: 40px;
+    }
+    .btn_content p{
+        font-size: 10px;
+    }
+    /* Footer Sectin */
+    .footer_nav a{
+        font-size: 0.5rem;
+        margin: 0px 10px;
+    }
+    .footer_icon img{
+        width: 7%;
+        margin: 0px 10px;
+    }
+    .footer_subnav a{
+        font-size: 0.5rem;
+    }
+    .footer_text p{
+        font-size: 0.5rem;
+        margin: 0px 10px;
+    }
 }
+
+
