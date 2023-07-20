@@ -525,7 +525,10 @@
         text-align: center;
     }
     /* Video Section */
-  
+    .video_container{
+
+        width: 90%;
+    }
     .video_content{
         flex-direction: column;
     }
@@ -540,6 +543,7 @@
     }
     .dwonload_content{
         text-align: center;
+        width: 100%;
     }
    
     /* Dwonload Section 2 */
